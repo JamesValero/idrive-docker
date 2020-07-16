@@ -8,4 +8,6 @@ RUN apt-get update && \
     touch /etc/crontab && \
     unzip IDriveForLinux.zip && \
     echo OK
+    
+CMD cron
 
